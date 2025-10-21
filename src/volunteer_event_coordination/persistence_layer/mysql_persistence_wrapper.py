@@ -1,6 +1,6 @@
 """Defines the MySQLPersistenceWrapper class."""
 
-from application_name.application_base import ApplicationBase
+from volunteer_event_coordination.application_base import ApplicationBase
 from mysql import connector
 from mysql.connector.pooling import (MySQLConnectionPool)
 import inspect
