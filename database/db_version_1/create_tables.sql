@@ -1,0 +1,56 @@
+SET FOREIGN_KEY_CHECKS=0;
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+-- ADD YOUR CODE HERE ----
+USE volunteer_event_coordination;
+-- USERS
+CREATE TABLE IF NOT EXISTS users (
+  id       INT AUTO_INCREMENT PRIMARY KEY,
+  full_name     VARCHAR(120) NOT NULL,
+  email         VARCHAR(160) NOT NULL UNIQUE,
+  phone         VARCHAR(30),
+  role          ENUM('admin','organizer','volunteer') DEFAULT 'volunteer',
+  created_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- EVENTS
+CREATE TABLE IF NOT EXISTS events (
+  id      INT AUTO_INCREMENT PRIMARY KEY,
+  title         VARCHAR(150) NOT NULL,
+  description   TEXT,
+  location      VARCHAR(150),
+  starts_at     DATETIME NOT NULL,
+  ends_at       DATETIME NOT NULL,
+  capacity      INT DEFAULT 0,
+  created_by    INT,
+  created_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (created_by) REFERENCES users(id)
+    ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+-- REGISTRATIONS (junction)
+CREATE TABLE IF NOT EXISTS volunteer_shift_xref (
+  id        INT AUTO_INCREMENT PRIMARY KEY,
+  event_id      INT NOT NULL,
+  user_id       INT NOT NULL,
+  status        ENUM('registered','waitlist','cancelled') DEFAULT 'registered',
+  registered_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uniq_event_user (event_id, user_id),
+  FOREIGN KEY (event_id) REFERENCES events(id)
+    ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY (user_id) REFERENCES users(id)
+    ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+COMMIT;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
