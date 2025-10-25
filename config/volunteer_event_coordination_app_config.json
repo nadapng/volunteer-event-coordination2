@@ -6,17 +6,18 @@
   },
   "database": {
     "pool": {
-      "name": "app_name_db_bool",
+      "name": "volunteer_event_coordination_db_bool",
       "size": 10,
       "reset_session": true,
       "use_pure": true
     },
     "connection": {
       "config": {
-        "database": "database_name",
-        "user": "database_username",
+        "database": "volunteer_event_coordination",
+        "user": "root",
+        "password": "root",
         "host": "localhost",
-        "port": 8889
+        "port": 3306
       }
     }
   }

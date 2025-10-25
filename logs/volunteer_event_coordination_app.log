@@ -3,3 +3,12 @@ DEBUG:MySQLPersistenceWrapper:2025-12-05 04:52:39,623:__init__: DB Connection Co
 DEBUG:AppServices:2025-12-05 04:52:39,624:__init__:It works!
 DEBUG:UserInterface:2025-12-05 04:52:39,624:__init__:It works!
 DEBUG:UserInterface:2025-12-05 04:52:39,624:start: User interface started!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 04:57:02,424:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 04:57:02,424:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 04:57:02,429:Creating connection pool...
+ERROR:MySQLPersistenceWrapper:2025-12-05 04:57:04,562:_initialize_database_connection_pool: Problem creating connection pool: 2003: Can't connect to MySQL server on 'localhost:3306' (Errno 10061: No connection could be made because the target machine actively refused it)
+ERROR:MySQLPersistenceWrapper:2025-12-05 04:57:04,563:_initialize_database_connection_pool: Check DB cnfg:
+{"pool": {"name": "volunteer_event_coordination_db_bool", "size": 10, "reset_session": true, "use_pure": true}, "connection": {"config": {"database": "volunteer_event_coordination", "user": "root", "password": "root", "host": "localhost", "port": 3306}}}
+DEBUG:AppServices:2025-12-05 04:57:04,563:__init__:It works!
+DEBUG:UserInterface:2025-12-05 04:57:04,563:__init__:It works!
+DEBUG:UserInterface:2025-12-05 04:57:04,564:start: User interface started!
