@@ -37,3 +37,8 @@ DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:53,305:__init__: DB Connection Co
 DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:53,319:Creating connection pool...
 DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:53,438:_initialize_database_connection_pool: Connection pool successfully created!
 DEBUG:AppServices:2025-12-05 05:23:53,439:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 16:39:35,177:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 16:39:35,178:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 16:39:35,178:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 16:39:35,271:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 16:39:35,272:__init__:It works!
