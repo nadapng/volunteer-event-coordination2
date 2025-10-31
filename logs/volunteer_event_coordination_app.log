@@ -12,3 +12,28 @@ ERROR:MySQLPersistenceWrapper:2025-12-05 04:57:04,563:_initialize_database_conne
 DEBUG:AppServices:2025-12-05 04:57:04,563:__init__:It works!
 DEBUG:UserInterface:2025-12-05 04:57:04,563:__init__:It works!
 DEBUG:UserInterface:2025-12-05 04:57:04,564:start: User interface started!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:19:53,447:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:19:53,447:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:19:53,448:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:19:53,562:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 05:19:53,563:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:22:13,045:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:22:13,046:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:22:13,047:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:22:13,146:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 05:22:13,147:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:01,882:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:01,882:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:01,883:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:01,973:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 05:23:01,973:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:13,874:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:13,874:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:13,874:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:13,966:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 05:23:13,967:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:53,237:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:53,305:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:53,319:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:53,438:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 05:23:53,439:__init__:It works!

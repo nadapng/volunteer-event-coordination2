@@ -2,7 +2,7 @@
 
 import json
 from argparse import ArgumentParser
-from volunteer_event_coordination.presentation_layer.user_interface import UserInterface
+from volunteer_event_coordination.presentation_layer.console_ui import ConsoleUI
 
 
 
@@ -15,7 +15,7 @@ def main():
 		with open(args.configfile, 'r') as f:
 			config = json.loads(f.read())
 
-	ui = UserInterface(config)
+	ui = ConsoleUI(config)
 	ui.start()
 			
 		
