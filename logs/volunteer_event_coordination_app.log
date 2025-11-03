@@ -42,3 +42,60 @@ DEBUG:MySQLPersistenceWrapper:2025-12-05 16:39:35,178:__init__: DB Connection Co
 DEBUG:MySQLPersistenceWrapper:2025-12-05 16:39:35,178:Creating connection pool...
 DEBUG:MySQLPersistenceWrapper:2025-12-05 16:39:35,271:_initialize_database_connection_pool: Connection pool successfully created!
 DEBUG:AppServices:2025-12-05 16:39:35,272:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:04:51,842:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:04:51,843:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:04:51,843:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:04:51,931:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 17:04:51,932:__init__:It works!
+DEBUG:AppServices:2025-12-05 17:04:53,347:get_all_users: Retrieving all users from database.
+ERROR:MySQLPersistenceWrapper:2025-12-05 17:04:53,373:select_all_users: Problem selecting all users: name 'student_id' is not defined
+DEBUG:AppServices:2025-12-05 17:05:13,948:get_all_users: Retrieving all users from database.
+ERROR:MySQLPersistenceWrapper:2025-12-05 17:05:13,954:select_all_users: Problem selecting all users: name 'student_id' is not defined
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:05:17,701:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:05:17,701:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:05:17,702:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:05:17,790:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 17:05:17,790:__init__:It works!
+DEBUG:AppServices:2025-12-05 17:05:18,141:get_all_users: Retrieving all users from database.
+ERROR:MySQLPersistenceWrapper:2025-12-05 17:05:18,147:select_all_events_for_user_id: Problem selecting all modules for user ID 1: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e.id = x.event_id AND x.user_id = 1' at line 1
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:05:18,147:select_all_users: Retrieved user
+ERROR:MySQLPersistenceWrapper:2025-12-05 17:05:18,150:select_all_events_for_user_id: Problem selecting all modules for user ID 2: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e.id = x.event_id AND x.user_id = 2' at line 1
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:05:18,152:select_all_users: Retrieved user
+ERROR:MySQLPersistenceWrapper:2025-12-05 17:05:18,154:select_all_events_for_user_id: Problem selecting all modules for user ID 3: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e.id = x.event_id AND x.user_id = 3' at line 1
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:05:18,156:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:03,976:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:03,977:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:03,977:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:04,066:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 17:07:04,066:__init__:It works!
+DEBUG:AppServices:2025-12-05 17:07:04,463:get_all_users: Retrieving all users from database.
+ERROR:MySQLPersistenceWrapper:2025-12-05 17:07:04,479:select_all_events_for_user_id: Problem selecting all modules for user ID 1: 1146 (42S02): Table 'volunteer_event_coordination.user_event_xref' doesn't exist
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:04,479:select_all_users: Retrieved user
+ERROR:MySQLPersistenceWrapper:2025-12-05 17:07:04,483:select_all_events_for_user_id: Problem selecting all modules for user ID 2: 1146 (42S02): Table 'volunteer_event_coordination.user_event_xref' doesn't exist
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:04,484:select_all_users: Retrieved user
+ERROR:MySQLPersistenceWrapper:2025-12-05 17:07:04,489:select_all_events_for_user_id: Problem selecting all modules for user ID 3: 1146 (42S02): Table 'volunteer_event_coordination.user_event_xref' doesn't exist
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:04,490:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:32,645:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:32,646:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:32,646:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:32,736:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 17:07:32,737:__init__:It works!
+DEBUG:AppServices:2025-12-05 17:07:33,227:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:33,246:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:33,251:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:33,256:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:06:27,843:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:06:27,844:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:06:27,844:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:06:27,975:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:06:27,976:__init__:It works!
+DEBUG:AppServices:2025-12-05 18:06:30,305:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:06:30,313:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:06:30,318:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:06:30,323:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:07:20,455:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:07:20,455:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:07:20,456:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:07:20,547:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:07:20,547:__init__:It works!
+DEBUG:AppServices:2025-12-05 18:07:24,967:get_all_events: Retrieving all events from database.

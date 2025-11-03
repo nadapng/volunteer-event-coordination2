@@ -1,6 +1,10 @@
 from volunteer_event_coordination.service_layer.app_services import AppServices
 from volunteer_event_coordination.application_base import ApplicationBase
+from volunteer_event_coordination.infrastructure_layer.user import User
+from volunteer_event_coordination.infrastructure_layer.event import Event
+from prettytable import PrettyTable
 import sys
+
 
 class ConsoleUI(ApplicationBase):
     """ Define the ConsoleUI class. """
@@ -60,6 +64,18 @@ class ConsoleUI(ApplicationBase):
     def list_users(self)->None:
         """ List all users. """
         print("\tListing all users...")
+        users = self.app_services.get_all_users()
+        users_table = PrettyTable()
+        users_table.field_names = ["ID", "Full Name", "Email", "Phone", "Role", "Events"]
+        events_table = PrettyTable()
+        events_table.field_names = ["Title", "Starts At", "Ends At", "Location", "Capacity"]
+        for student in users:
+            for event in student.events:
+                events_table.add_row([event.title, event.starts_at, event.ends_at, event.location, event.capacity])
+            users_table.add_row([student.id, student.full_name, student.email, student.phone, student.role, events_table.get_string()])
+            users_table.add_divider()
+            events_table.clear_rows()
+        print(users_table)
 
     def add_user(self)->None:
         """ Add a new user. """
@@ -78,6 +94,12 @@ class ConsoleUI(ApplicationBase):
     def list_events(self)->None:
         """ List all events. """
         print("\tListing all events...")
+        events = self.app_services.get_all_events()
+        events_table = PrettyTable()
+        events_table.field_names = ["ID", "Title", "Description", "Location", "Starts At", "Ends At", "Capacity", "Created By", "Created At"]
+        for event in events:
+            events_table.add_row([event.id, event.title, event.description, event.location, event.starts_at, event.ends_at, event.capacity, event.created_by, event.created_at])
+        print(events_table)
 
     def add_event(self)->None:
         """ Add a new event. """
