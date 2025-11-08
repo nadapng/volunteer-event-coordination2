@@ -68,8 +68,14 @@ class MySQLPersistenceWrapper(ApplicationBase):
 			"SELECT e.id, e.title, e.description, e.location, e.starts_at, e.ends_at, e.capacity, e.created_by, e.created_at "\
 			"FROM events e , volunteer_shift_xref x "\
 			"WHERE e.id = x.event_id AND x.user_id = %s;"
-
-
+		
+		self.INSERT_USER = \
+			"INSERT INTO users (full_name, email, phone, role) "\
+			"VALUES (%s, %s, %s, %s);"
+		
+		self.INSERT_EVENT = \
+			"INSERT INTO events (title, description, location, starts_at, ends_at, capacity, created_by) "\
+			"VALUES (%s, %s, %s, %s, %s, %s, %s);"
 
 
 	# MySQLPersistenceWrapper Methods
@@ -171,6 +177,35 @@ class MySQLPersistenceWrapper(ApplicationBase):
 			self._logger.log_error(f'{inspect.currentframe().f_code.co_name}: Problem selecting all modules for user ID {user_id}: {e}')
 			return []
 
+	def insert_user(self, user:User)->User:
+		"""Inserts a new user into the database."""
+		cursor = None
+		try:
+			connection = self._connection_pool.get_connection()
+			with connection:
+				cursor = connection.cursor()
+				with cursor:
+					cursor.execute(self.INSERT_USER, (user.full_name, user.email, user.phone, user.role))
+					connection.commit()
+			return User
+		except Exception as e:
+			self._logger.log_error(f'{inspect.currentframe().f_code.co_name}: Problem inserting user: {e}')
+			return None
+		
+	def insert_event(self, event:Event)->Event:
+		"""Inserts a new event into the database."""
+		cursor = None
+		try:
+			connection = self._connection_pool.get_connection()
+			with connection:
+				cursor = connection.cursor()
+				with cursor:
+					cursor.execute(self.INSERT_EVENT, (event.title, event.description, event.location, event.starts_at, event.ends_at, event.capacity, event.created_by))
+					connection.commit()
+			return event
+		except Exception as e:
+			self._logger.log_error(f'{inspect.currentframe().f_code.co_name}: Problem inserting event: {e}')
+			return None
 
 
 

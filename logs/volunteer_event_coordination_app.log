@@ -99,3 +99,61 @@ DEBUG:MySQLPersistenceWrapper:2025-12-05 18:07:20,456:Creating connection pool..
 DEBUG:MySQLPersistenceWrapper:2025-12-05 18:07:20,547:_initialize_database_connection_pool: Connection pool successfully created!
 DEBUG:AppServices:2025-12-05 18:07:20,547:__init__:It works!
 DEBUG:AppServices:2025-12-05 18:07:24,967:get_all_events: Retrieving all events from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:09,347:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:09,348:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:09,348:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:09,437:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:17:09,438:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:38,053:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:38,054:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:38,054:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:38,161:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:17:38,162:__init__:It works!
+DEBUG:AppServices:2025-12-05 18:18:11,450:create_user: Creating new user Abdulrhman Goda.
+ERROR:AppServices:2025-12-05 18:18:11,451:create_user: Exception occurred: MySQLPersistenceWrapper.insert_user() takes 2 positional arguments but 5 were given
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:19:34,633:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:19:34,633:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:19:34,633:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:19:34,716:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:19:34,717:__init__:It works!
+DEBUG:AppServices:2025-12-05 18:19:54,586:create_user: Creating new user Abdulrhman Goda.
+ERROR:AppServices:2025-12-05 18:19:54,586:create_user: Exception occurred: User.__init__() got an unexpected keyword argument 'full_name'
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:21:05,208:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:21:05,208:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:21:05,208:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:21:05,290:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:21:05,291:__init__:It works!
+DEBUG:AppServices:2025-12-05 18:21:25,358:create_user: Creating new user Abdulrhman Goda.
+ERROR:ConsoleUI:2025-12-05 18:21:25,372:Exception occurred: type object 'User' has no attribute 'full_name'
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:15,413:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:15,414:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:15,414:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:15,503:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:22:15,504:__init__:It works!
+DEBUG:AppServices:2025-12-05 18:22:16,797:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:16,803:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:16,808:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:16,812:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:16,818:select_all_users: Retrieved user
+DEBUG:AppServices:2025-12-05 18:22:37,254:create_user: Creating new user Test User.
+ERROR:ConsoleUI:2025-12-05 18:22:37,264:Exception occurred: type object 'User' has no attribute 'id'
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:28,973:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:28,973:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:28,973:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:29,063:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:23:29,064:__init__:It works!
+DEBUG:AppServices:2025-12-05 18:23:40,420:create_user: Creating new user test user 2.
+DEBUG:AppServices:2025-12-05 18:23:51,698:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:51,703:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:51,706:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:51,711:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:51,722:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:51,726:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:51,729:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:24:07,682:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:24:07,683:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:24:07,683:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:24:07,771:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:24:07,772:__init__:It works!
+DEBUG:AppServices:2025-12-05 18:24:45,331:create_event: Creating new event test event.
+DEBUG:AppServices:2025-12-05 18:24:51,190:get_all_events: Retrieving all events from database.

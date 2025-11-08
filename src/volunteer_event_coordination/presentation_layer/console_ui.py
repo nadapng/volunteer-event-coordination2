@@ -24,7 +24,7 @@ class ConsoleUI(ApplicationBase):
         print(f"\tVolunteer Event Coordination System")
         print()
         print(f"\t1. List all users")
-        print(f"\t2. Add Event")
+        print(f"\t2. Add User")
         print(f"\t3. Update User")
         print(f"\t4. Delete User")
         print()
@@ -80,6 +80,19 @@ class ConsoleUI(ApplicationBase):
     def add_user(self)->None:
         """ Add a new user. """
         print("\tAdding a new user...")
+        try:
+            full_name = input("\tEnter full name: ")
+            email = input("\tEnter email: ")
+            phone = input("\tEnter phone: ")
+            role = input("\tEnter role (volunteer/organizer): ")
+
+            user = self.app_services.create_user(full_name, email, phone, role)
+            if user:
+                print(f"\tUser '{full_name}' created successfully with ID {user.id}.")
+            else:
+                print("\tFailed to create user.")
+        except Exception as ex:
+            self._logger.log_error(f"Exception occurred: {ex}")
 
     def update_user(self)->None:
         """ Update an existing user. """
@@ -104,6 +117,22 @@ class ConsoleUI(ApplicationBase):
     def add_event(self)->None:
         """ Add a new event. """
         print("\tAdding a new event...")
+        try:
+            title = input("\tEnter event title: ")
+            description = input("\tEnter event description: ")
+            location = input("\tEnter event location: ")
+            starts_at = input("\tEnter event start time (YYYY-MM-DD HH:MM:SS): ")
+            ends_at = input("\tEnter event end time (YYYY-MM-DD HH:MM:SS): ")
+            capacity = int(input("\tEnter event capacity: "))
+            created_by = int(input("\tEnter creator user ID: "))
+
+            event = self.app_services.create_event(title, description, location, starts_at, ends_at, capacity, created_by)
+            if event:
+                print(f"\tEvent '{event.title}' created successfully with ID {event.id}.")
+            else:
+                print("\tFailed to create event.")
+        except Exception as ex:
+            self._logger.log_error(f"Exception occurred: {ex}")
 
     def update_event(self)->None:
         """ Update an existing event. """
