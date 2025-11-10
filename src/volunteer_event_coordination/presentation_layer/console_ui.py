@@ -97,7 +97,20 @@ class ConsoleUI(ApplicationBase):
     def update_user(self)->None:
         """ Update an existing user. """
         print("\tUpdating an existing user...")
+        try:    
+            user_id = int(input("\tEnter user ID to update: "))
+            full_name = input("\tEnter new full name: ")
+            email = input("\tEnter new email: ")
+            phone = input("\tEnter new phone: ")
+            role = input("\tEnter new role (volunteer/organizer): ")
 
+            user = self.app_services.update_user(user_id, full_name, email, phone, role)
+            if user:
+                print(f"\tUser ID {user_id} updated successfully.")
+            else:
+                print(f"\tFailed to update user ID {user_id}.")
+        except Exception as ex:
+            self._logger.log_error(f"Exception occurred: {ex}")    
 
     def delete_user(self)->None:
         """ Delete a user. """
@@ -137,6 +150,23 @@ class ConsoleUI(ApplicationBase):
     def update_event(self)->None:
         """ Update an existing event. """
         print("\tUpdating an existing event...")
+        try:
+            event_id = int(input("\tEnter event ID to update: "))
+            title = input("\tEnter new event title: ")
+            description = input("\tEnter new event description: ")
+            location = input("\tEnter new event location: ")
+            starts_at = input("\tEnter new event start time (YYYY-MM-DD HH:MM:SS): ")
+            ends_at = input("\tEnter new event end time (YYYY-MM-DD HH:MM:SS): ")
+            capacity = input("\tEnter new event capacity: ")
+
+            event = self.app_services.update_event(event_id, title, description, location, starts_at, ends_at, capacity)
+            if event:
+                print(f"\tEvent ID {event_id} updated successfully.")
+            else:
+                print(f"\tFailed to update event ID {event_id}.")
+
+        except Exception as ex:
+            self._logger.log_error(f"Exception occurred: {ex}")
 
     def delete_event(self)->None:
         """ Delete an event. """

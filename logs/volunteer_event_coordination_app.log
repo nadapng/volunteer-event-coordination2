@@ -157,3 +157,67 @@ DEBUG:MySQLPersistenceWrapper:2025-12-05 18:24:07,771:_initialize_database_conne
 DEBUG:AppServices:2025-12-05 18:24:07,772:__init__:It works!
 DEBUG:AppServices:2025-12-05 18:24:45,331:create_event: Creating new event test event.
 DEBUG:AppServices:2025-12-05 18:24:51,190:get_all_events: Retrieving all events from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:13,539:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:13,539:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:13,540:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:13,630:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:31:13,631:__init__:It works!
+DEBUG:AppServices:2025-12-05 18:31:16,183:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:16,187:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:16,191:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:16,196:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:16,200:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:16,203:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:16,206:select_all_users: Retrieved user
+DEBUG:AppServices:2025-12-05 18:31:21,423:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:21,428:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:21,431:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:21,434:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:21,436:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:21,438:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:21,441:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:08,009:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:08,009:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:08,010:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:08,099:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:32:08,099:__init__:It works!
+DEBUG:AppServices:2025-12-05 18:32:18,106:update_user: Updating user id 6.
+DEBUG:AppServices:2025-12-05 18:32:20,958:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:20,962:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:20,966:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:20,969:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:20,972:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:20,975:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:20,979:select_all_users: Retrieved user
+DEBUG:AppServices:2025-12-05 18:32:35,274:update_user: Updating user id 6.
+DEBUG:AppServices:2025-12-05 18:32:36,620:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:36,625:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:36,627:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:36,629:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:36,633:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:36,635:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:36,638:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:50:59,092:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:50:59,093:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:50:59,093:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:50:59,178:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:50:59,179:__init__:It works!
+DEBUG:AppServices:2025-12-05 18:51:01,320:get_all_events: Retrieving all events from database.
+ERROR:ConsoleUI:2025-12-05 18:51:18,512:Exception occurred: invalid literal for int() with base 10: ''
+DEBUG:AppServices:2025-12-05 18:51:20,791:get_all_events: Retrieving all events from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:52:24,419:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:52:24,419:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:52:24,420:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:52:24,549:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:52:24,551:__init__:It works!
+DEBUG:AppServices:2025-12-05 18:52:31,215:update_event: Updating event id 3.
+ERROR:AppServices:2025-12-05 18:52:31,218:update_event: Exception occurred: invalid literal for int() with base 10: ''
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:53:40,946:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:53:40,946:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:53:40,947:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:53:41,034:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:53:41,035:__init__:It works!
+DEBUG:AppServices:2025-12-05 18:53:46,087:update_event: Updating event id 3.
+DEBUG:AppServices:2025-12-05 18:53:53,246:get_all_events: Retrieving all events from database.
+DEBUG:AppServices:2025-12-05 18:54:04,715:update_event: Updating event id 3.
+DEBUG:AppServices:2025-12-05 18:54:07,719:get_all_events: Retrieving all events from database.

@@ -125,3 +125,49 @@ class AppServices(ApplicationBase):
             self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Exception occurred: {ex}")
             return None
 
+    def update_user(self, user_id:int, full_name:str, email:str, phone:str, role:str)->User:
+        """ Update an existing user in the database. """
+
+        self._logger.log_debug(f"{inspect.currentframe().f_code.co_name}: Updating user id {user_id}.")
+
+        try:
+            user = self.DB.select_user_by_id(user_id)
+            if not user:
+                self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: User id {user_id} does not exist.")
+                return False
+            if full_name != "": user.full_name = full_name
+            if email != "": user.email = email
+            if phone != "": user.phone = phone
+            if role != "": user.role = role
+            updated_user = self.DB.update_user(user)
+            if updated_user is None:
+                return None
+            return user
+        except Exception as ex:
+            self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Exception occurred: {ex}")
+            return None
+
+    def update_event(self, event_id:int, title:str, description:str, location:str, starts_at:str, ends_at:str, capacity:str)->Event:
+        """ Update an existing event in the database. """
+
+        self._logger.log_debug(f"{inspect.currentframe().f_code.co_name}: Updating event id {event_id}.")
+
+        try:
+            event = self.DB.select_event_by_id(event_id)
+            if not event:
+                self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Event id {event_id} does not exist.")
+                return False
+            if title != "": event.title = title
+            if description != "": event.description = description
+            if location != "": event.location = location
+            if starts_at != "": event.starts_at = starts_at
+            if ends_at != "": event.ends_at = ends_at
+            if capacity != "": event.capacity = int(capacity)
+            updated_event = self.DB.update_event(event)
+            if updated_event is None:
+                return None
+            return event
+        except Exception as ex:
+            self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Exception occurred: {ex}")
+            return None
+

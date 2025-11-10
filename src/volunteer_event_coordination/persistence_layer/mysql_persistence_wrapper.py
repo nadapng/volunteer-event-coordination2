@@ -76,6 +76,16 @@ class MySQLPersistenceWrapper(ApplicationBase):
 		self.INSERT_EVENT = \
 			"INSERT INTO events (title, description, location, starts_at, ends_at, capacity, created_by) "\
 			"VALUES (%s, %s, %s, %s, %s, %s, %s);"
+		
+		self.UPDATE_USER = \
+			"UPDATE users "\
+			"SET full_name = %s, email = %s, phone = %s, role = %s "\
+			"WHERE id = %s;"
+		
+		self.UPDATE_EVENT = \
+			"UPDATE events "\
+			"SET title = %s, description = %s, location = %s, starts_at = %s, ends_at = %s, capacity = %s "\
+			"WHERE id = %s;"
 
 
 	# MySQLPersistenceWrapper Methods
@@ -207,6 +217,35 @@ class MySQLPersistenceWrapper(ApplicationBase):
 			self._logger.log_error(f'{inspect.currentframe().f_code.co_name}: Problem inserting event: {e}')
 			return None
 
+	def update_user(self, user:User)->bool:
+		"""Updates an existing user in the database."""
+		cursor = None
+		try:
+			connection = self._connection_pool.get_connection()
+			with connection:
+				cursor = connection.cursor()
+				with cursor:
+					cursor.execute(self.UPDATE_USER, (user.full_name, user.email, user.phone, user.role, user.id))
+					connection.commit()
+			return True
+		except Exception as e:
+			self._logger.log_error(f'{inspect.currentframe().f_code.co_name}: Problem updating user: {e}')
+			return False
+		
+	def update_event(self, event:Event)->bool:
+		"""Updates an existing event in the database."""
+		cursor = None
+		try:
+			connection = self._connection_pool.get_connection()
+			with connection:
+				cursor = connection.cursor()
+				with cursor:
+					cursor.execute(self.UPDATE_EVENT, (event.title, event.description, event.location, event.starts_at, event.ends_at, event.capacity, event.id))
+					connection.commit()
+			return True
+		except Exception as e:
+			self._logger.log_error(f'{inspect.currentframe().f_code.co_name}: Problem updating event: {e}')
+			return False
 
 
 
