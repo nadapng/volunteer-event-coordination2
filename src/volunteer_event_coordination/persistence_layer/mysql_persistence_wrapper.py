@@ -86,6 +86,14 @@ class MySQLPersistenceWrapper(ApplicationBase):
 			"UPDATE events "\
 			"SET title = %s, description = %s, location = %s, starts_at = %s, ends_at = %s, capacity = %s "\
 			"WHERE id = %s;"
+		
+		self.DELETE_USER = \
+			"DELETE FROM users "\
+			"WHERE id = %s;"
+		
+		self.DELETE_EVENT = \
+			"DELETE FROM events "\
+			"WHERE id = %s;"
 
 
 	# MySQLPersistenceWrapper Methods
@@ -245,6 +253,36 @@ class MySQLPersistenceWrapper(ApplicationBase):
 			return True
 		except Exception as e:
 			self._logger.log_error(f'{inspect.currentframe().f_code.co_name}: Problem updating event: {e}')
+			return False
+		
+	def delete_user(self, user_id:int)->bool:
+		"""Deletes a user from the database."""
+		cursor = None
+		try:
+			connection = self._connection_pool.get_connection()
+			with connection:
+				cursor = connection.cursor()
+				with cursor:
+					cursor.execute(self.DELETE_USER, (user_id,))
+					connection.commit()
+			return True
+		except Exception as e:
+			self._logger.log_error(f'{inspect.currentframe().f_code.co_name}: Problem deleting user ID {user_id}: {e}')
+			return False
+		
+	def delete_event(self, event_id:int)->bool:
+		"""Deletes an event from the database."""
+		cursor = None
+		try:
+			connection = self._connection_pool.get_connection()
+			with connection:
+				cursor = connection.cursor()
+				with cursor:
+					cursor.execute(self.DELETE_EVENT, (event_id,))
+					connection.commit()
+			return True
+		except Exception as e:
+			self._logger.log_error(f'{inspect.currentframe().f_code.co_name}: Problem deleting event ID {event_id}: {e}')
 			return False
 
 

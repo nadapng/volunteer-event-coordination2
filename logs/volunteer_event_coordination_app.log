@@ -221,3 +221,27 @@ DEBUG:AppServices:2025-12-05 18:53:46,087:update_event: Updating event id 3.
 DEBUG:AppServices:2025-12-05 18:53:53,246:get_all_events: Retrieving all events from database.
 DEBUG:AppServices:2025-12-05 18:54:04,715:update_event: Updating event id 3.
 DEBUG:AppServices:2025-12-05 18:54:07,719:get_all_events: Retrieving all events from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:31,082:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:31,083:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:31,083:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:31,171:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 18:56:31,172:__init__:It works!
+DEBUG:AppServices:2025-12-05 18:56:32,146:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:32,151:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:32,155:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:32,159:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:32,162:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:32,165:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:32,168:select_all_users: Retrieved user
+DEBUG:AppServices:2025-12-05 18:56:38,101:delete_user: Deleting user id 6.
+DEBUG:AppServices:2025-12-05 18:56:42,564:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:42,568:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:42,571:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:42,573:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:42,576:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:42,579:select_all_users: Retrieved user
+DEBUG:AppServices:2025-12-05 18:56:50,897:delete_user: Deleting user id 6.
+ERROR:AppServices:2025-12-05 18:56:50,899:delete_user: User id 6 does not exist.
+DEBUG:AppServices:2025-12-05 18:57:01,660:get_all_events: Retrieving all events from database.
+DEBUG:AppServices:2025-12-05 18:57:08,570:delete_event: Deleting event id 3.
+DEBUG:AppServices:2025-12-05 18:57:13,703:get_all_events: Retrieving all events from database.

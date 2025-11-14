@@ -115,6 +115,16 @@ class ConsoleUI(ApplicationBase):
     def delete_user(self)->None:
         """ Delete a user. """
         print("\tDeleting a user...")
+        try:
+            user_id = int(input("\tEnter user ID to delete: "))
+
+            success = self.app_services.delete_user(user_id)
+            if success:
+                print(f"\tUser ID {user_id} deleted successfully.")
+            else:
+                print(f"\tFailed to delete user ID {user_id}.")
+        except Exception as ex:
+            self._logger.log_error(f"Exception occurred: {ex}")
 
 
     def list_events(self)->None:
@@ -171,6 +181,16 @@ class ConsoleUI(ApplicationBase):
     def delete_event(self)->None:
         """ Delete an event. """
         print("\tDeleting an event...")
+        try:
+            event_id = int(input("\tEnter event ID to delete: "))
+
+            success = self.app_services.delete_event(event_id)
+            if success:
+                print(f"\tEvent ID {event_id} deleted successfully.")
+            else:
+                print(f"\tFailed to delete event ID {event_id}.")
+        except Exception as ex:
+            self._logger.log_error(f"Exception occurred: {ex}")
 
     def register_user_to_event(self)->None:
         """ Register a user to an event. """

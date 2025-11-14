@@ -170,4 +170,36 @@ class AppServices(ApplicationBase):
         except Exception as ex:
             self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Exception occurred: {ex}")
             return None
+        
+    def delete_user(self, user_id:int)->bool:
+        """ Delete a user from the database. """
+
+        self._logger.log_debug(f"{inspect.currentframe().f_code.co_name}: Deleting user id {user_id}.")
+
+        try:
+            user = self.DB.select_user_by_id(user_id)
+            if not user:
+                self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: User id {user_id} does not exist.")
+                return False
+            deleted = self.DB.delete_user(user_id)
+            return deleted
+        except Exception as ex:
+            self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Exception occurred: {ex}")
+            return False
+        
+    def delete_event(self, event_id:int)->bool:
+        """ Delete an event from the database. """
+
+        self._logger.log_debug(f"{inspect.currentframe().f_code.co_name}: Deleting event id {event_id}.")
+
+        try:
+            event = self.DB.select_event_by_id(event_id)
+            if not event:
+                self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Event id {event_id} does not exist.")
+                return False
+            deleted = self.DB.delete_event(event_id)
+            return deleted
+        except Exception as ex:
+            self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Exception occurred: {ex}")
+            return False
 
