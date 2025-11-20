@@ -94,6 +94,19 @@ class MySQLPersistenceWrapper(ApplicationBase):
 		self.DELETE_EVENT = \
 			"DELETE FROM events "\
 			"WHERE id = %s;"
+		
+		self.REGISTER_USER_TO_EVENT = \
+			"INSERT INTO volunteer_shift_xref (user_id, event_id, status) "\
+			"VALUES (%s, %s, %s);"
+		
+		self.UPDATE_USER_EVENT_STATUS = \
+			"UPDATE volunteer_shift_xref "\
+			"SET status = %s "\
+			"WHERE user_id = %s AND event_id = %s;"
+		
+		self.UNREGISTER_USER_FROM_EVENT = \
+			"DELETE FROM volunteer_shift_xref "\
+			"WHERE user_id = %s AND event_id = %s;"
 
 
 	# MySQLPersistenceWrapper Methods
@@ -283,6 +296,51 @@ class MySQLPersistenceWrapper(ApplicationBase):
 			return True
 		except Exception as e:
 			self._logger.log_error(f'{inspect.currentframe().f_code.co_name}: Problem deleting event ID {event_id}: {e}')
+			return False
+		
+	def register_user_to_event(self, user_id:int, event_id:int, status:str)->bool:
+		"""Registers a user with an event in the database."""
+		cursor = None
+		try:
+			connection = self._connection_pool.get_connection()
+			with connection:
+				cursor = connection.cursor()
+				with cursor:
+					cursor.execute(self.REGISTER_USER_TO_EVENT, (user_id, event_id, status))
+					connection.commit()
+			return True
+		except Exception as e:
+			self._logger.log_error(f'{inspect.currentframe().f_code.co_name}: Problem registering user ID {user_id} with event ID {event_id}: {e}')
+			return False
+		
+	def update_user_event_registration_status(self, user_id:int, event_id:int, status:str)->bool:
+		"""Updates the status of a user's registration for an event in the database."""
+		cursor = None
+		try:
+			connection = self._connection_pool.get_connection()
+			with connection:
+				cursor = connection.cursor()
+				with cursor:
+					cursor.execute(self.UPDATE_USER_EVENT_STATUS, (status, user_id, event_id))
+					connection.commit()
+			return True
+		except Exception as e:
+			self._logger.log_error(f'{inspect.currentframe().f_code.co_name}: Problem updating status for user ID {user_id} and event ID {event_id}: {e}')
+			return False
+		
+	def unregister_user_from_event(self, user_id:int, event_id:int)->bool:
+		"""Unregisters a user from an event in the database."""
+		cursor = None
+		try:
+			connection = self._connection_pool.get_connection()
+			with connection:
+				cursor = connection.cursor()
+				with cursor:
+					cursor.execute(self.UNREGISTER_USER_FROM_EVENT, (user_id, event_id))
+					connection.commit()
+			return True
+		except Exception as e:
+			self._logger.log_error(f'{inspect.currentframe().f_code.co_name}: Problem unregistering user ID {user_id} from event ID {event_id}: {e}')
 			return False
 
 

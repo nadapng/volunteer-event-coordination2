@@ -32,16 +32,17 @@ class ConsoleUI(ApplicationBase):
         print(f"\t6. Add Event")
         print(f"\t7. Update Event")
         print(f"\t8. Delete Event")
-
-        print(f"\t9. Register User to Event")
-        print(f"\t10. Unregister User from Event")
         print()
-        print(f"\t11. Exit")
+        print(f"\t9. Register User to Event")
+        print(f"\t10. Update User Event Registration Status")
+        print(f"\t11. Unregister User from Event")
+        print()
+        print(f"\t12. Exit")
         print()
 
     def process_menu_choice(self)->None:
         """ Process users menu choice. """
-        choice = input("\tEnter your choice (1-11): ")
+        choice = input("\tEnter your choice (1-12): ")
 
         match choice:
             case '1': self.list_users()
@@ -55,9 +56,10 @@ class ConsoleUI(ApplicationBase):
             case '8': self.delete_event()
 
             case '9': self.register_user_to_event()
-            case '10': self.unregister_user_from_event()
+            case '10': self.update_user_event_registration_status()
+            case '11': self.unregister_user_from_event()
 
-            case '11': sys.exit(0)
+            case '12': sys.exit(0)
 
             case _: print("\tInvalid Menu choice {choice}. Please try again.")
 
@@ -195,11 +197,58 @@ class ConsoleUI(ApplicationBase):
     def register_user_to_event(self)->None:
         """ Register a user to an event. """
         print("\tRegistering a user to an event...")
+        try:
+            user_id = int(input("\tEnter user ID to register: "))
+            event_id = int(input("\tEnter event ID to register to: "))
+            status = input("\tEnter registration status (e.g., registered/waitlist/cancelled): ")
+            if status not in ['registered', 'waitlist', 'cancelled']:
+                status = 'registered'  # Default status
+
+            success = self.app_services.register_user_to_event(user_id, event_id, status)
+            if success:
+                print(f"\tUser ID {user_id} registered to Event ID {event_id} successfully.")
+            else:
+                print(f"\tFailed to register User ID {user_id} to Event ID {event_id}.")
+
+        except Exception as ex:
+            self._logger.log_error(f"Exception occurred: {ex}")
+
+    def update_user_event_registration_status(self)->None:
+        """ Update a user's event registration status. """
+        print("\tUpdating a user's event registration status...")
+        try:
+            user_id = int(input("\tEnter user ID: "))
+            event_id = int(input("\tEnter event ID: "))
+            status = input("\tEnter new registration status (e.g., registered/waitlist/cancelled): ")
+            if status not in ['registered', 'waitlist', 'cancelled']:
+                print("\tInvalid status. Please try again.")
+                return
+
+            success = self.app_services.update_user_event_registration_status(user_id, event_id, status)
+            if success:
+                print(f"\tUser ID {user_id} registration status for Event ID {event_id} updated to '{status}' successfully.")
+            else:
+                print(f"\tFailed to update registration status for User ID {user_id} and Event ID {event_id}.")
+
+        except Exception as ex:
+            self._logger.log_error(f"Exception occurred: {ex}")
 
 
     def unregister_user_from_event(self)->None:
         """ Unregister a user from an event. """
         print("\tUnregistering a user from an event...")
+        try:
+            user_id = int(input("\tEnter user ID to unregister: "))
+            event_id = int(input("\tEnter event ID to unregister from: "))
+
+            success = self.app_services.unregister_user_from_event(user_id, event_id)
+            if success:
+                print(f"\tUser ID {user_id} unregistered from Event ID {event_id} successfully.")
+            else:
+                print(f"\tFailed to unregister User ID {user_id} from Event ID {event_id}.")
+
+        except Exception as ex:
+            self._logger.log_error(f"Exception occurred: {ex}")
 
     def start(self)->None:
         while True:

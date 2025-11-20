@@ -203,3 +203,63 @@ class AppServices(ApplicationBase):
             self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Exception occurred: {ex}")
             return False
 
+    def register_user_to_event(self, user_id:int, event_id:int, status:str)->bool:
+        """ Register a user to an event. """
+
+        self._logger.log_debug(f"{inspect.currentframe().f_code.co_name}: Registering user id {user_id} to event id {event_id}.")
+
+        try:
+            user = self.DB.select_user_by_id(user_id)
+            if not user:
+                self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: User id {user_id} does not exist.")
+                return False
+            event = self.DB.select_event_by_id(event_id)
+            if not event:
+                self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Event id {event_id} does not exist.")
+                return False
+            registered = self.DB.register_user_to_event(user_id, event_id, status)
+            return registered
+        except Exception as ex:
+            self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Exception occurred: {ex}")
+            return False
+        
+    def update_user_event_registration_status(self, user_id:int, event_id:int, status:str)->bool:
+        """ Update a user's registration status for an event. """
+
+        self._logger.log_debug(f"{inspect.currentframe().f_code.co_name}: Updating registration status for user id {user_id} to event id {event_id}.")
+
+        try:
+            user = self.DB.select_user_by_id(user_id)
+            if not user:
+                self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: User id {user_id} does not exist.")
+                return False
+            event = self.DB.select_event_by_id(event_id)
+            if not event:
+                self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Event id {event_id} does not exist.")
+                return False
+            updated = self.DB.update_user_event_registration_status(user_id, event_id, status)
+            return updated
+        except Exception as ex:
+            self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Exception occurred: {ex}")
+            return False
+
+    def unregister_user_from_event(self, user_id:int, event_id:int)->bool:  
+        """ Unregister a user from an event. """
+
+        self._logger.log_debug(f"{inspect.currentframe().f_code.co_name}: Unregistering user id {user_id} from event id {event_id}.")
+
+        try:
+            user = self.DB.select_user_by_id(user_id)
+            if not user:
+                self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: User id {user_id} does not exist.")
+                return False
+            event = self.DB.select_event_by_id(event_id)
+            if not event:
+                self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Event id {event_id} does not exist.")
+                return False
+            unregistered = self.DB.unregister_user_from_event(user_id, event_id)
+            return unregistered
+        except Exception as ex:
+            self._logger.log_error(f"{inspect.currentframe().f_code.co_name}: Exception occurred: {ex}")
+            return False
+

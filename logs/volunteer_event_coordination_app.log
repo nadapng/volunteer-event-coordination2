@@ -245,3 +245,87 @@ ERROR:AppServices:2025-12-05 18:56:50,899:delete_user: User id 6 does not exist.
 DEBUG:AppServices:2025-12-05 18:57:01,660:get_all_events: Retrieving all events from database.
 DEBUG:AppServices:2025-12-05 18:57:08,570:delete_event: Deleting event id 3.
 DEBUG:AppServices:2025-12-05 18:57:13,703:get_all_events: Retrieving all events from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:00:59,220:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:00:59,220:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:00:59,220:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:00:59,325:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 19:00:59,325:__init__:It works!
+DEBUG:AppServices:2025-12-05 19:01:03,863:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:01:03,868:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:01:03,871:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:01:03,875:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:01:03,879:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:01:03,882:select_all_users: Retrieved user
+ERROR:ConsoleUI:2025-12-05 19:01:37,108:Exception occurred: AppServices.register_user_to_event() missing 1 required positional argument: 'status'
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:06,293:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:06,294:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:06,294:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:06,395:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 19:04:06,395:__init__:It works!
+ERROR:ConsoleUI:2025-12-05 19:04:15,632:Exception occurred: AppServices.register_user_to_event() missing 1 required positional argument: 'status'
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:54,591:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:54,591:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:54,591:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:54,698:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 19:04:54,699:__init__:It works!
+DEBUG:AppServices:2025-12-05 19:05:00,346:register_user_to_event: Registering user id 5 to event id 5.
+ERROR:AppServices:2025-12-05 19:05:00,354:register_user_to_event: Event id 5 does not exist.
+DEBUG:AppServices:2025-12-05 19:05:10,652:register_user_to_event: Registering user id 5 to event id 2.
+ERROR:AppServices:2025-12-05 19:05:10,661:register_user_to_event: Exception occurred: 'MySQLPersistenceWrapper' object has no attribute 'register_user_to_event'
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:05:51,811:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:05:51,812:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:05:51,812:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:05:51,917:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 19:05:51,917:__init__:It works!
+DEBUG:AppServices:2025-12-05 19:05:54,864:register_user_to_event: Registering user id 5 to event id 2.
+ERROR:MySQLPersistenceWrapper:2025-12-05 19:05:54,874:register_user_to_event: Problem registering user ID 5 with event ID 2: Not all parameters were used in the SQL statement
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:01,147:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:01,148:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:01,148:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:01,248:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 19:07:01,249:__init__:It works!
+DEBUG:AppServices:2025-12-05 19:07:04,743:register_user_to_event: Registering user id 5 to event id 2.
+DEBUG:AppServices:2025-12-05 19:07:06,706:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:06,711:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:06,714:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:06,717:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:06,721:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:06,726:select_all_users: Retrieved user
+DEBUG:AppServices:2025-12-05 19:07:12,246:register_user_to_event: Registering user id 5 to event id 1.
+DEBUG:AppServices:2025-12-05 19:07:16,618:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:16,622:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:16,625:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:16,627:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:16,629:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:16,632:select_all_users: Retrieved user
+DEBUG:AppServices:2025-12-05 19:07:26,681:unregister_user_from_event: Unregistering user id 5 from event id 1.
+DEBUG:AppServices:2025-12-05 19:07:30,673:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:30,677:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:30,680:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:30,682:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:30,685:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:30,689:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:17,339:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:17,339:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:17,340:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:17,443:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 19:08:17,444:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:21,644:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:21,644:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:21,645:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:21,871:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 19:08:21,872:__init__:It works!
+DEBUG:AppServices:2025-12-05 19:08:32,023:update_user_event_registration_status: Updating registration status for user id 5 to event id 2.
+ERROR:AppServices:2025-12-05 19:08:32,030:update_user_event_registration_status: Exception occurred: 'MySQLPersistenceWrapper' object has no attribute 'update_user_event_registration_status'
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:06,160:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:06,161:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:06,161:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:06,264:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 19:09:06,265:__init__:It works!
+DEBUG:AppServices:2025-12-05 19:09:15,794:update_user_event_registration_status: Updating registration status for user id 5 to event id 2.
+DEBUG:AppServices:2025-12-05 19:09:19,353:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:19,357:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:19,360:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:19,363:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:19,368:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:19,372:select_all_users: Retrieved user
