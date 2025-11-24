@@ -218,7 +218,7 @@ class MySQLPersistenceWrapper(ApplicationBase):
 				with cursor:
 					cursor.execute(self.INSERT_USER, (user.full_name, user.email, user.phone, user.role))
 					connection.commit()
-			return User
+			return user
 		except Exception as e:
 			self._logger.log_error(f'{inspect.currentframe().f_code.co_name}: Problem inserting user: {e}')
 			return None
