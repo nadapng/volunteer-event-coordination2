@@ -570,3 +570,117 @@ DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,933:select_all_users: Retrieve
 DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,934:select_all_users: Retrieved user
 DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,936:select_all_users: Retrieved user
 DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,937:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:36,307:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:36,308:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:36,308:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:36,411:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-05 21:31:36,412:__init__:It works!
+DEBUG:AppServices:2025-12-05 21:31:39,974:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:39,980:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:39,984:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:39,986:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:39,989:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:39,992:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:39,995:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:40,001:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:40,005:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:40,008:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:40,010:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:40,013:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:40,018:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:40,021:select_all_users: Retrieved user
+DEBUG:AppServices:2025-12-05 21:31:43,897:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,902:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,905:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,907:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,909:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,911:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,914:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,918:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,920:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,923:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,925:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,927:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,930:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,933:select_all_users: Retrieved user
+DEBUG:AppServices:2025-12-05 21:32:16,184:delete_user: Deleting user id 30.
+DEBUG:AppServices:2025-12-05 21:32:20,092:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,096:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,099:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,101:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,105:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,107:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,109:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,113:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,116:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,118:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,121:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,123:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,126:select_all_users: Retrieved user
+DEBUG:AppServices:2025-12-05 21:32:53,001:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,005:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,008:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,010:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,013:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,015:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,017:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,019:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,022:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,026:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,030:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,032:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,034:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,790:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,791:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,792:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,883:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,887:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,889:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,891:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,893:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,894:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,895:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,897:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,898:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,904:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,905:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,906:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,908:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,915:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,916:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,917:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,918:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,919:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,920:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,921:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,923:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,925:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,928:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,930:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,931:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,948:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,950:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,950:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,951:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,953:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,954:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,955:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,956:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,960:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,962:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,964:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,965:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,966:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,981:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,982:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,983:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,985:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,986:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,986:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,987:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,988:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,989:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,994:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,996:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,997:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,998:select_all_users: Retrieved user
