@@ -24,7 +24,7 @@ This application follows a layered architecture pattern:
 
 ## Prerequisites
 
-- Python 3.14 or higher
+- Python 3.13 or higher
 - MySQL Server
 - Git
 - pipenv (for dependency management)
