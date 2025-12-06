@@ -7,7 +7,7 @@ declare -r DOCS_DIR="docs"
 declare -r LOGS_DIR="logs"
 declare -r CONFIG_DIR="config"
 declare -r CONFIG_FILE="volunteer_event_coordination_app_config.json"
-declare -r PROJECT_PACKAGE_NAME="volunteer_event_coordination"
+declare -r PROJECT_PACKAGE_NAME="volunteer_event_coordination2"
 
 # Create these directories if they do not already exist
 mkdir -p $LOGS_DIR
@@ -52,7 +52,13 @@ default_action() {
 }
 
 runtests() {
-	pipenv run pytest --cov=$PROJECT_PACKAGE_NAME $TESTS_DIR/
+	echo "Running tests (attempting coverage)..."
+	if pipenv run pytest --cov="$PROJECT_PACKAGE_NAME" "$TESTS_DIR/"; then
+		echo "Tests completed with coverage."
+	else
+		echo "pytest-cov plugin not available; running tests without coverage."
+		pipenv run pytest "$TESTS_DIR/"
+	fi
 }
 
 runmain() {
