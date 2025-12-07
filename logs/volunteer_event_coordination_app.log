@@ -1,686 +1,104 @@
-DEBUG:MySQLPersistenceWrapper:2025-12-05 04:52:39,623:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 04:52:39,623:__init__: DB Connection Config Dict: {'database': 'database_name', 'user': 'database_username', 'host': 'localhost', 'port': 8889}
-DEBUG:AppServices:2025-12-05 04:52:39,624:__init__:It works!
-DEBUG:UserInterface:2025-12-05 04:52:39,624:__init__:It works!
-DEBUG:UserInterface:2025-12-05 04:52:39,624:start: User interface started!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 04:57:02,424:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 04:57:02,424:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 04:57:02,429:Creating connection pool...
-ERROR:MySQLPersistenceWrapper:2025-12-05 04:57:04,562:_initialize_database_connection_pool: Problem creating connection pool: 2003: Can't connect to MySQL server on 'localhost:3306' (Errno 10061: No connection could be made because the target machine actively refused it)
-ERROR:MySQLPersistenceWrapper:2025-12-05 04:57:04,563:_initialize_database_connection_pool: Check DB cnfg:
-{"pool": {"name": "volunteer_event_coordination_db_bool", "size": 10, "reset_session": true, "use_pure": true}, "connection": {"config": {"database": "volunteer_event_coordination", "user": "root", "password": "root", "host": "localhost", "port": 3306}}}
-DEBUG:AppServices:2025-12-05 04:57:04,563:__init__:It works!
-DEBUG:UserInterface:2025-12-05 04:57:04,563:__init__:It works!
-DEBUG:UserInterface:2025-12-05 04:57:04,564:start: User interface started!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:19:53,447:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:19:53,447:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:19:53,448:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:19:53,562:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 05:19:53,563:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:22:13,045:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:22:13,046:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:22:13,047:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:22:13,146:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 05:22:13,147:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:01,882:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:01,882:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:01,883:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:01,973:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 05:23:01,973:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:13,874:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:13,874:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:13,874:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:13,966:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 05:23:13,967:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:53,237:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:53,305:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:53,319:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 05:23:53,438:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 05:23:53,439:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 16:39:35,177:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 16:39:35,178:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 16:39:35,178:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 16:39:35,271:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 16:39:35,272:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:04:51,842:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:04:51,843:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:04:51,843:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:04:51,931:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 17:04:51,932:__init__:It works!
-DEBUG:AppServices:2025-12-05 17:04:53,347:get_all_users: Retrieving all users from database.
-ERROR:MySQLPersistenceWrapper:2025-12-05 17:04:53,373:select_all_users: Problem selecting all users: name 'student_id' is not defined
-DEBUG:AppServices:2025-12-05 17:05:13,948:get_all_users: Retrieving all users from database.
-ERROR:MySQLPersistenceWrapper:2025-12-05 17:05:13,954:select_all_users: Problem selecting all users: name 'student_id' is not defined
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:05:17,701:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:05:17,701:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:05:17,702:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:05:17,790:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 17:05:17,790:__init__:It works!
-DEBUG:AppServices:2025-12-05 17:05:18,141:get_all_users: Retrieving all users from database.
-ERROR:MySQLPersistenceWrapper:2025-12-05 17:05:18,147:select_all_events_for_user_id: Problem selecting all modules for user ID 1: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e.id = x.event_id AND x.user_id = 1' at line 1
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:05:18,147:select_all_users: Retrieved user
-ERROR:MySQLPersistenceWrapper:2025-12-05 17:05:18,150:select_all_events_for_user_id: Problem selecting all modules for user ID 2: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e.id = x.event_id AND x.user_id = 2' at line 1
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:05:18,152:select_all_users: Retrieved user
-ERROR:MySQLPersistenceWrapper:2025-12-05 17:05:18,154:select_all_events_for_user_id: Problem selecting all modules for user ID 3: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e.id = x.event_id AND x.user_id = 3' at line 1
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:05:18,156:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:03,976:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:03,977:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:03,977:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:04,066:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 17:07:04,066:__init__:It works!
-DEBUG:AppServices:2025-12-05 17:07:04,463:get_all_users: Retrieving all users from database.
-ERROR:MySQLPersistenceWrapper:2025-12-05 17:07:04,479:select_all_events_for_user_id: Problem selecting all modules for user ID 1: 1146 (42S02): Table 'volunteer_event_coordination.user_event_xref' doesn't exist
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:04,479:select_all_users: Retrieved user
-ERROR:MySQLPersistenceWrapper:2025-12-05 17:07:04,483:select_all_events_for_user_id: Problem selecting all modules for user ID 2: 1146 (42S02): Table 'volunteer_event_coordination.user_event_xref' doesn't exist
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:04,484:select_all_users: Retrieved user
-ERROR:MySQLPersistenceWrapper:2025-12-05 17:07:04,489:select_all_events_for_user_id: Problem selecting all modules for user ID 3: 1146 (42S02): Table 'volunteer_event_coordination.user_event_xref' doesn't exist
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:04,490:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:32,645:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:32,646:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:32,646:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:32,736:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 17:07:32,737:__init__:It works!
-DEBUG:AppServices:2025-12-05 17:07:33,227:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:33,246:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:33,251:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 17:07:33,256:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:06:27,843:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:06:27,844:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:06:27,844:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:06:27,975:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:06:27,976:__init__:It works!
-DEBUG:AppServices:2025-12-05 18:06:30,305:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:06:30,313:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:06:30,318:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:06:30,323:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:07:20,455:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:07:20,455:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:07:20,456:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:07:20,547:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:07:20,547:__init__:It works!
-DEBUG:AppServices:2025-12-05 18:07:24,967:get_all_events: Retrieving all events from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:09,347:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:09,348:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:09,348:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:09,437:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:17:09,438:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:38,053:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:38,054:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:38,054:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:17:38,161:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:17:38,162:__init__:It works!
-DEBUG:AppServices:2025-12-05 18:18:11,450:create_user: Creating new user Abdulrhman Goda.
-ERROR:AppServices:2025-12-05 18:18:11,451:create_user: Exception occurred: MySQLPersistenceWrapper.insert_user() takes 2 positional arguments but 5 were given
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:19:34,633:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:19:34,633:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:19:34,633:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:19:34,716:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:19:34,717:__init__:It works!
-DEBUG:AppServices:2025-12-05 18:19:54,586:create_user: Creating new user Abdulrhman Goda.
-ERROR:AppServices:2025-12-05 18:19:54,586:create_user: Exception occurred: User.__init__() got an unexpected keyword argument 'full_name'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:21:05,208:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:21:05,208:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:21:05,208:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:21:05,290:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:21:05,291:__init__:It works!
-DEBUG:AppServices:2025-12-05 18:21:25,358:create_user: Creating new user Abdulrhman Goda.
-ERROR:ConsoleUI:2025-12-05 18:21:25,372:Exception occurred: type object 'User' has no attribute 'full_name'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:15,413:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:15,414:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:15,414:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:15,503:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:22:15,504:__init__:It works!
-DEBUG:AppServices:2025-12-05 18:22:16,797:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:16,803:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:16,808:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:16,812:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:22:16,818:select_all_users: Retrieved user
-DEBUG:AppServices:2025-12-05 18:22:37,254:create_user: Creating new user Test User.
-ERROR:ConsoleUI:2025-12-05 18:22:37,264:Exception occurred: type object 'User' has no attribute 'id'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:28,973:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:28,973:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:28,973:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:29,063:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:23:29,064:__init__:It works!
-DEBUG:AppServices:2025-12-05 18:23:40,420:create_user: Creating new user test user 2.
-DEBUG:AppServices:2025-12-05 18:23:51,698:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:51,703:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:51,706:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:51,711:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:51,722:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:51,726:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:23:51,729:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:24:07,682:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:24:07,683:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:24:07,683:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:24:07,771:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:24:07,772:__init__:It works!
-DEBUG:AppServices:2025-12-05 18:24:45,331:create_event: Creating new event test event.
-DEBUG:AppServices:2025-12-05 18:24:51,190:get_all_events: Retrieving all events from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:13,539:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:13,539:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:13,540:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:13,630:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:31:13,631:__init__:It works!
-DEBUG:AppServices:2025-12-05 18:31:16,183:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:16,187:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:16,191:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:16,196:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:16,200:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:16,203:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:16,206:select_all_users: Retrieved user
-DEBUG:AppServices:2025-12-05 18:31:21,423:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:21,428:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:21,431:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:21,434:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:21,436:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:21,438:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:31:21,441:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:08,009:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:08,009:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:08,010:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:08,099:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:32:08,099:__init__:It works!
-DEBUG:AppServices:2025-12-05 18:32:18,106:update_user: Updating user id 6.
-DEBUG:AppServices:2025-12-05 18:32:20,958:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:20,962:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:20,966:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:20,969:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:20,972:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:20,975:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:20,979:select_all_users: Retrieved user
-DEBUG:AppServices:2025-12-05 18:32:35,274:update_user: Updating user id 6.
-DEBUG:AppServices:2025-12-05 18:32:36,620:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:36,625:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:36,627:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:36,629:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:36,633:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:36,635:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:32:36,638:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:50:59,092:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:50:59,093:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:50:59,093:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:50:59,178:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:50:59,179:__init__:It works!
-DEBUG:AppServices:2025-12-05 18:51:01,320:get_all_events: Retrieving all events from database.
-ERROR:ConsoleUI:2025-12-05 18:51:18,512:Exception occurred: invalid literal for int() with base 10: ''
-DEBUG:AppServices:2025-12-05 18:51:20,791:get_all_events: Retrieving all events from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:52:24,419:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:52:24,419:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:52:24,420:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:52:24,549:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:52:24,551:__init__:It works!
-DEBUG:AppServices:2025-12-05 18:52:31,215:update_event: Updating event id 3.
-ERROR:AppServices:2025-12-05 18:52:31,218:update_event: Exception occurred: invalid literal for int() with base 10: ''
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:53:40,946:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:53:40,946:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:53:40,947:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:53:41,034:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:53:41,035:__init__:It works!
-DEBUG:AppServices:2025-12-05 18:53:46,087:update_event: Updating event id 3.
-DEBUG:AppServices:2025-12-05 18:53:53,246:get_all_events: Retrieving all events from database.
-DEBUG:AppServices:2025-12-05 18:54:04,715:update_event: Updating event id 3.
-DEBUG:AppServices:2025-12-05 18:54:07,719:get_all_events: Retrieving all events from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:31,082:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:31,083:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:31,083:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:31,171:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 18:56:31,172:__init__:It works!
-DEBUG:AppServices:2025-12-05 18:56:32,146:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:32,151:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:32,155:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:32,159:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:32,162:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:32,165:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:32,168:select_all_users: Retrieved user
-DEBUG:AppServices:2025-12-05 18:56:38,101:delete_user: Deleting user id 6.
-DEBUG:AppServices:2025-12-05 18:56:42,564:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:42,568:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:42,571:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:42,573:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:42,576:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 18:56:42,579:select_all_users: Retrieved user
-DEBUG:AppServices:2025-12-05 18:56:50,897:delete_user: Deleting user id 6.
-ERROR:AppServices:2025-12-05 18:56:50,899:delete_user: User id 6 does not exist.
-DEBUG:AppServices:2025-12-05 18:57:01,660:get_all_events: Retrieving all events from database.
-DEBUG:AppServices:2025-12-05 18:57:08,570:delete_event: Deleting event id 3.
-DEBUG:AppServices:2025-12-05 18:57:13,703:get_all_events: Retrieving all events from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:00:59,220:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:00:59,220:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:00:59,220:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:00:59,325:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 19:00:59,325:__init__:It works!
-DEBUG:AppServices:2025-12-05 19:01:03,863:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:01:03,868:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:01:03,871:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:01:03,875:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:01:03,879:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:01:03,882:select_all_users: Retrieved user
-ERROR:ConsoleUI:2025-12-05 19:01:37,108:Exception occurred: AppServices.register_user_to_event() missing 1 required positional argument: 'status'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:06,293:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:06,294:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:06,294:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:06,395:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 19:04:06,395:__init__:It works!
-ERROR:ConsoleUI:2025-12-05 19:04:15,632:Exception occurred: AppServices.register_user_to_event() missing 1 required positional argument: 'status'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:54,591:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:54,591:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:54,591:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:04:54,698:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 19:04:54,699:__init__:It works!
-DEBUG:AppServices:2025-12-05 19:05:00,346:register_user_to_event: Registering user id 5 to event id 5.
-ERROR:AppServices:2025-12-05 19:05:00,354:register_user_to_event: Event id 5 does not exist.
-DEBUG:AppServices:2025-12-05 19:05:10,652:register_user_to_event: Registering user id 5 to event id 2.
-ERROR:AppServices:2025-12-05 19:05:10,661:register_user_to_event: Exception occurred: 'MySQLPersistenceWrapper' object has no attribute 'register_user_to_event'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:05:51,811:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:05:51,812:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:05:51,812:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:05:51,917:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 19:05:51,917:__init__:It works!
-DEBUG:AppServices:2025-12-05 19:05:54,864:register_user_to_event: Registering user id 5 to event id 2.
-ERROR:MySQLPersistenceWrapper:2025-12-05 19:05:54,874:register_user_to_event: Problem registering user ID 5 with event ID 2: Not all parameters were used in the SQL statement
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:01,147:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:01,148:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:01,148:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:01,248:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 19:07:01,249:__init__:It works!
-DEBUG:AppServices:2025-12-05 19:07:04,743:register_user_to_event: Registering user id 5 to event id 2.
-DEBUG:AppServices:2025-12-05 19:07:06,706:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:06,711:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:06,714:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:06,717:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:06,721:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:06,726:select_all_users: Retrieved user
-DEBUG:AppServices:2025-12-05 19:07:12,246:register_user_to_event: Registering user id 5 to event id 1.
-DEBUG:AppServices:2025-12-05 19:07:16,618:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:16,622:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:16,625:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:16,627:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:16,629:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:16,632:select_all_users: Retrieved user
-DEBUG:AppServices:2025-12-05 19:07:26,681:unregister_user_from_event: Unregistering user id 5 from event id 1.
-DEBUG:AppServices:2025-12-05 19:07:30,673:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:30,677:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:30,680:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:30,682:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:30,685:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:07:30,689:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:17,339:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:17,339:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:17,340:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:17,443:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 19:08:17,444:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:21,644:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:21,644:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:21,645:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:08:21,871:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 19:08:21,872:__init__:It works!
-DEBUG:AppServices:2025-12-05 19:08:32,023:update_user_event_registration_status: Updating registration status for user id 5 to event id 2.
-ERROR:AppServices:2025-12-05 19:08:32,030:update_user_event_registration_status: Exception occurred: 'MySQLPersistenceWrapper' object has no attribute 'update_user_event_registration_status'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:06,160:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:06,161:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:06,161:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:06,264:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 19:09:06,265:__init__:It works!
-DEBUG:AppServices:2025-12-05 19:09:15,794:update_user_event_registration_status: Updating registration status for user id 5 to event id 2.
-DEBUG:AppServices:2025-12-05 19:09:19,353:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:19,357:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:19,360:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:19,363:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:19,368:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 19:09:19,372:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:16,384:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:16,385:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:16,385:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:16,478:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:16,483:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:16,485:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:16,487:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:16,489:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:16,490:select_all_users: Retrieved user
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:13:16,597:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'test@user.com' for key 'email'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:48,793:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:48,793:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:48,794:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:48,885:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:48,888:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:48,890:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:48,892:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:48,894:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:48,899:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:13:48,901:select_all_users: Retrieved user
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:13:48,925:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'test@user.com' for key 'email'
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:13:49,018:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'deleted@user.com' for key 'email'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:04,549:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:04,550:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:04,550:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:04,641:_initialize_database_connection_pool: Connection pool successfully created!
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:14:04,747:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'test@user.com' for key 'email'
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:14:04,776:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'deleted@user.com' for key 'email'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:23,896:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:23,896:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:23,896:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:23,987:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:23,991:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:23,994:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:23,998:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:24,001:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:24,003:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:24,006:select_all_users: Retrieved user
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:14:24,032:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'test@user.com' for key 'email'
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:14:24,236:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'deleted@user.com' for key 'email'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:47,582:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:47,583:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:47,583:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:47,671:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:47,677:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:47,679:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:47,682:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:47,684:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:47,686:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:14:47,688:select_all_users: Retrieved user
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:14:47,711:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'test@user.com' for key 'email'
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:14:47,822:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'deleted@user.com' for key 'email'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:16:11,798:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:16:11,799:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:16:11,799:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:16:11,892:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:16:11,896:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:16:11,898:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:16:11,901:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:16:11,902:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:16:11,904:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:16:11,908:select_all_users: Retrieved user
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:16:11,928:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'test@user.com' for key 'email'
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:16:12,034:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'deleted@user.com' for key 'email'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:17:41,325:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:17:41,325:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:17:41,326:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:17:41,411:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:17:41,416:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:17:41,419:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:17:41,422:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:17:41,424:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:17:41,427:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:17:41,429:select_all_users: Retrieved user
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:17:41,454:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'test@user.com' for key 'email'
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:17:41,569:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'deleted@user.com' for key 'email'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:19:15,920:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:19:15,920:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:19:15,921:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:19:16,005:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:19:16,008:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:19:16,010:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:19:16,013:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:19:16,017:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:19:16,019:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:19:16,020:select_all_users: Retrieved user
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:19:16,043:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'test@user.com' for key 'email'
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:19:16,159:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'deleted@user.com' for key 'email'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:20:30,494:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:20:30,495:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:20:30,495:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:20:30,581:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:20:30,585:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:20:30,588:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:20:30,591:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:20:30,593:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:20:30,597:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:20:30,599:select_all_users: Retrieved user
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:20:30,624:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'test@user.com' for key 'email'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:22:22,083:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:22:22,083:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:22:22,084:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:22:22,179:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:22:29,685:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:22:29,686:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:22:29,686:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:22:29,791:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:22:29,798:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:22:29,801:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:22:29,805:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:22:29,811:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:22:29,814:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:22:29,816:select_all_users: Retrieved user
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:22:29,933:insert_event: Problem inserting event: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`volunteer_event_coordination`.`events`, CONSTRAINT `events_ibfk_1` FOREIGN KEY (`created_by`) REFERENCES `users` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
-ERROR:MySQLPersistenceWrapper:2025-12-05 21:22:29,956:insert_user: Problem inserting user: 1062 (23000): Duplicate entry 'deleted@user.com' for key 'email'
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,331:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,331:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,331:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,417:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,422:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,425:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,426:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,428:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,430:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,432:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,433:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,443:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,445:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,446:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,448:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,449:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,452:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,454:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,476:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,478:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,481:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,483:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,486:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,489:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,491:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,492:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,506:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,508:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,509:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,510:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,512:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,514:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,515:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:14,516:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,408:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,408:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,408:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,494:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,498:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,500:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,504:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,506:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,508:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,511:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,513:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,516:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,519:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,530:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,531:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,532:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,534:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,540:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,541:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,542:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,544:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,546:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,570:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,572:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,574:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,576:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,577:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,578:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,579:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,581:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,583:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,585:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,594:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,595:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,597:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,599:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,601:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,605:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,607:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,608:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,609:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:23:42,611:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,716:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,717:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,717:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,810:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,817:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,819:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,820:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,822:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,823:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,825:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,827:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,828:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,829:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,830:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,831:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,840:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,842:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,844:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,846:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,848:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,849:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,851:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,852:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,853:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,854:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,855:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,876:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,878:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,881:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,882:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,884:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,885:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,887:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,889:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,892:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,894:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,897:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,898:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,916:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,918:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,920:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,923:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,926:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,928:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,929:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,931:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,933:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,934:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,936:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:27:28,937:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:36,307:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:36,308:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:36,308:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:36,411:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:AppServices:2025-12-05 21:31:36,412:__init__:It works!
-DEBUG:AppServices:2025-12-05 21:31:39,974:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:39,980:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:39,984:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:39,986:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:39,989:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:39,992:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:39,995:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:40,001:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:40,005:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:40,008:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:40,010:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:40,013:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:40,018:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:40,021:select_all_users: Retrieved user
-DEBUG:AppServices:2025-12-05 21:31:43,897:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,902:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,905:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,907:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,909:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,911:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,914:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,918:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,920:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,923:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,925:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,927:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,930:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:31:43,933:select_all_users: Retrieved user
-DEBUG:AppServices:2025-12-05 21:32:16,184:delete_user: Deleting user id 30.
-DEBUG:AppServices:2025-12-05 21:32:20,092:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,096:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,099:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,101:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,105:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,107:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,109:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,113:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,116:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,118:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,121:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,123:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:20,126:select_all_users: Retrieved user
-DEBUG:AppServices:2025-12-05 21:32:53,001:get_all_users: Retrieving all users from database.
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,005:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,008:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,010:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,013:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,015:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,017:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,019:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,022:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,026:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,030:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,032:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:32:53,034:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,790:__init__:It works!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,791:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,792:Creating connection pool...
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,883:_initialize_database_connection_pool: Connection pool successfully created!
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,887:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,889:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,891:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,893:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,894:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,895:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,897:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,898:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,904:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,905:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,906:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,908:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,915:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,916:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,917:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,918:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,919:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,920:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,921:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,923:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,925:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,928:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,930:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,931:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,948:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,950:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,950:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,951:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,953:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,954:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,955:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,956:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,960:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,962:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,964:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,965:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,966:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,981:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,982:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,983:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,985:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,986:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,986:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,987:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,988:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,989:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,994:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,996:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,997:select_all_users: Retrieved user
-DEBUG:MySQLPersistenceWrapper:2025-12-05 21:33:18,998:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:11,598:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:11,606:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:11,607:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:11,793:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:11,811:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:11,852:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:11,862:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:11,898:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:11,903:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:11,912:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:11,980:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:11,988:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:11,994:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:12,000:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:12,017:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:12,022:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:12,027:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:12,031:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:49,762:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:49,764:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:49,764:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:49,984:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:49,998:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,004:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,010:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,017:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,026:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,048:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,054:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,064:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,068:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,074:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,157:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,160:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,163:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,165:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,171:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,175:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,243:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,248:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,251:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,256:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,259:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:37:50,262:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:38:04,230:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:38:04,231:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:38:04,232:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:38:04,404:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-07 16:38:04,406:__init__:It works!
+DEBUG:AppServices:2025-12-07 16:38:09,382:get_all_events: Retrieving all events from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:41:33,563:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:41:33,564:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:41:33,565:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:41:33,738:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:AppServices:2025-12-07 16:41:33,762:__init__:It works!
+DEBUG:AppServices:2025-12-07 16:41:58,652:update_user: Updating user id 1.
+DEBUG:AppServices:2025-12-07 16:42:02,981:get_all_users: Retrieving all users from database.
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:02,999:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:03,012:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:03,023:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,438:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,439:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,440:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,647:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,663:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,671:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,678:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,710:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,719:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,733:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,821:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,828:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,832:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,837:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,866:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,870:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,873:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:42:43,880:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,018:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,021:__init__: DB Connection Config Dict: {'database': 'volunteer_event_coordination', 'user': 'root', 'password': 'root', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,021:Creating connection pool...
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,225:_initialize_database_connection_pool: Connection pool successfully created!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,242:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,247:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,256:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,264:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,273:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,298:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,302:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,308:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,313:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,317:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,399:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,403:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,410:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,413:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,416:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,420:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,493:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,498:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,502:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,506:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,511:select_all_users: Retrieved user
+DEBUG:MySQLPersistenceWrapper:2025-12-07 16:44:19,514:select_all_users: Retrieved user

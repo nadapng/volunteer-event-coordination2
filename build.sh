@@ -7,7 +7,7 @@ declare -r DOCS_DIR="docs"
 declare -r LOGS_DIR="logs"
 declare -r CONFIG_DIR="config"
 declare -r CONFIG_FILE="volunteer_event_coordination_app_config.json"
-declare -r PROJECT_PACKAGE_NAME="volunteer_event_coordination2"
+declare -r PROJECT_PACKAGE_NAME="volunteer_event_coordination"
 
 # Create these directories if they do not already exist
 mkdir -p $LOGS_DIR
@@ -121,7 +121,8 @@ process_arguments() {
 
 main(){
 	process_arguments "$1"
-	exit 1
+	local rc=$?
+	exit $rc
 }
 
 # Call main() with all command-line arguments
